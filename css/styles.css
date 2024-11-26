@@ -33,6 +33,7 @@ body {
 li, ol, ul {
   padding: 0;
   display: inline-block;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -40,6 +41,7 @@ h2 {
   text-transform: uppercase;
   font-size: var(--font-size-large);
   margin: 0;
+  font-style: italic;
 }
 
 h1 {
@@ -58,6 +60,7 @@ button {
   -o-transition: var(--transition);
   transition: var(--transition);
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 #btn__reset {
@@ -111,7 +114,7 @@ button {
 
 .show {
   color: #fff;
-  background-color: #4ac0d5;
+  background-color: #94d54a;
   font-size: 20px;
   height: 65px;
   width: 65px;
